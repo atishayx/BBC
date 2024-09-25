@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar */
+.navbar{
+    padding: 3vw 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar>img{
+    width: 150px;
+}
+
+.nav-items{
+    gap: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-items>a{
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+/* banner */
+.banner{
+    width: 100%;
+}
+
+.banner>img{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    padding: 3vw 12vw;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+/* Left Side */
+.hero-left {
+    flex-basis: 45%;
+}
+
+.hero-left h1 {
+    font-size: 1.8rem;
+    color: #220074;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: 500 !important;
+}
+
+.hero-left img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px #1515152d;
+}
+
+.image-nextdiv{
+    background-color: #6C48DF;
+}
+
+.image-nextdiv>h3{
+    text-align: center;
+    color: #dadada;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.feature-section {
+    margin-top: 20px;
+}
+
+.feature-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #6C48DF;
+}
+
+.feature-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.feature-section ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+/* Right Side */
+.hero-right {
+    flex-basis: 45%;
+    padding-left: 30px;
+}
+
+.hero-right h2 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #6C48DF;
+}
+
+.hero-right p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.5;
+    font-weight: 500 !important;
+}
+
+.button-group {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-right: 15px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-buy {
+    background-color: rgb(250, 81, 19);
+}
+
+.btn-register {
+    background-color: rgb(240, 17, 91);
+}
+
+.btn-buy:hover {
+    background-color: rgb(194, 55, 4);
+}
+
+.btn-register:hover {
+    background-color: rgb(198, 7, 70);
+}
+
+.icon-cart::before {
+    content: '\1F6D2'; /* Cart icon */
+    margin-right: 8px;
+}
+
+.icon-register::before {
+    content: '\1F4C4'; /* Register icon */
+    margin-right: 8px;
+}
+
+/* Offer List */
+.offer-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.hero-right>h3{
+    color: #6C48DF;
+    margin-bottom: 15px;
+}
+
+.offer-list li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+/* info section */
+.info{
+    padding: 1vw 0;
+    background-color: #f4f4f4;
+}
+
+.info>h1{
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #546471;
+    text-align: center;
+}
+
+/* products-img */
+.products-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fafafa;
+}
+
+.product-img-div{
+    width: 200px;
+    height: 200px;
+    background-color: #abb7c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img-div>img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+/* News Section */
+.news{
+    padding: 2vw 15vw;
+}
+
+.news>h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.news-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3vw;
+    width: 30%;
+}
+
+.news-img-text>img{
+    width: 70%;
+}
+
+.news-img-text>p{
+    color: #6C48DF;
+    text-align: center;
+}
+
+/* General Footer Styling */
+.footer-section {
+    background-color: #4f4f4f;
+    padding: 30px 100px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-column {
+    flex-basis: 22%;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #FFC107;
+    text-align: left;
+    font-weight: 500;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.footer-column ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Subscribe Section */
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+#subscribe-section h3 {
+    line-height: 18px;
+    font-size: .8rem;
+    color: #ddd;
+    font-weight: 500;
+    text-align: left;
+}
+
+.subscribe-input {
+    padding: 10px;
+    width: 180px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.subscribe-button {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #FFC107;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.social-icons{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-icons > img {
+    cursor: pointer;
+    padding: 7px; 
+    border-radius: 50%; 
+    background-color: #FFC107; 
+    width: 28px; 
+    height: 28px; 
+    object-fit: cover; 
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    padding-top: 15px;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #999;
+    margin: 0;
+}
+
